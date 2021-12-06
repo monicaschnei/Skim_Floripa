@@ -1,0 +1,27 @@
+{
+  "name": "layout2",
+  "version": "1.0.0",
+  "description": "site da skim floripa",
+  "main": "home.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monicaschnei/Skim_Floripa.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "Javasceipt"
+  ],
+  "author": "Monica de Souza Schneider",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monicaschnei/Skim_Floripa/issues"
+  },
+  "homepage": "https://github.com/monicaschnei/Skim_Floripa#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
