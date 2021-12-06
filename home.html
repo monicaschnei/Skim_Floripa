@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/fontawesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/brands.min.css"/>    <link rel="stylesheet" href="reset_.css">
+    <link rel="stylesheet" href="home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Outfit:wght@200&family=Pacifico&display=swap" rel="stylesheet">
+
+    
+    <title>About Surfing classroom</title>
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+        <img class="logo" src="logo-cores-07.png" alt="Logo">
+        <nav id="nav">
+            <ul class="itens">
+                <li><a href="#eventos" class="item">Eventos</a></li>
+                <li><a href="#aulas" class="item">Aulas</a></li>
+                <li><a href="https://www.instagram.com/skimfloripa/" target="blank" class="item"><i class="fa-brands fa-instagram fa-lg"></i></a></li>
+                <li><a href="https://web.whatsapp.com/sen?phone=554891687107" class="item"><i class="fa-brands fa-whatsapp fa-lg"></i></a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <main>
+        <h1 class="skim_floripa">Skim Floripa</h1>
+        <div class="container">
+            <div class="conteudo">
+                <p>One of the greatest things about the sport of surfing is that you need only three things: body, a surfboard and a wave</p>
+            </div>
+            <div class="images">
+              <img class="mySlides" src="skim_foto6.jpg" >
+              <img class="mySlides" src="skim_foto7.jpg" >
+              <img class="mySlides" src="skim_foto8.jpg" >
+            </div>
+            <!--<img class="imagem" src="skim_foto4.jpg" alt="imagem de jovem surfando">-->
+        </div>
+        <div id="eventos" class="eventos">
+            <div class="conteudo">
+                <p>One of the greatest things about the sport of surfing is that you need only three things: body, a surfboard and a wave</p>
+            </div>
+            <!--<div class="images">
+                <img class="mySlides" src="skim_foto6.jpg" >
+                <img class="mySlides" src="skim_foto7.jpg" >
+                <img class="mySlides" src="skim_foto8.jpg" >
+              </div>-->
+            <img class="eventos_imagens" src="../Layout2/skim_foto6.jpg" alt="Imagem de jovem surgando">
+            
+        </div>
+        <div id="aulas" class="aulas">
+            <div class="conteudo">
+                <p>One of the greatest things about the sport of surfing is that you need only three things: body, a surfboard and a wave</p>
+            </div>
+            <!--<div class="images">
+                <img class="mySlides" src="skim_foto6.jpg" >
+                <img class="mySlides" src="skim_foto7.jpg" >
+                <img class="mySlides" src="skim_foto8.jpg" >
+              </div>--> 
+           <img class="aulas_imagens" src="../Layout2/skim_foto4.jpg" alt="Imagem das aulas">
+            
+        </div>
+    </main>
+    <footer>
+        <p>Surfing is the most blissful experience you can have on this planet, a taste of heaven</p>
+    </footer>
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+               x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+</script>
+    <script src="header_menu.js"> </script>
+</body>
+</html>
